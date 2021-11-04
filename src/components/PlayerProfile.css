@@ -1,0 +1,61 @@
+.team-container {
+  max-width: 1120px;
+  width: 100%;
+  margin: auto;
+}
+
+.team-wrapper {
+  position: relative;
+  margin: 50px 0px;
+  box-shadow: 20px 20px 20px 20px rgba(0, 89, 255, 0.17);
+}
+
+.player-link {
+  width: 100%;
+
+  text-decoration: none;
+  margin: 5px;
+}
+
+.player-pic-wrap {
+  position: relative;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.player-img {
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.player-img:hover {
+  transform: scale(1.1);
+}
+
+.player-name {
+  color: #252e48;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.player-list {
+  display: flex;
+  flex-basis: 1;
+}
+
+.player-pic-wrap::after {
+  content: attr(data-category);
+  position: relative;
+  top: -28px;
+
+  margin-left: 0px;
+  padding: 6px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+}

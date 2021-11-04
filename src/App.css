@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.intro {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 10%;
+  border: 3px solid black;
+  padding: 50px;
+}
+
+.intro h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.intro p {
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  line-height: 28px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.team h1 {
+  font-size: 50px;
+  height: 120px;
+  text-align: center;
+  background-image: linear-gradient(to right, #047aed, rgb(0, 0, 99));
+  padding-top: 30px;
+  color: aliceblue;
+}
+
+.cards h1 {
+  font-size: 50px;
+  height: 120px;
+  text-align: center;
+  background-image: linear-gradient(to right, #047aed, white);
+  padding-top: 30px;
+  color: aliceblue;
+}
+
+.HeadLine h1 {
+  font-size: 50px;
+  height: 120px;
+  text-align: center;
+  background-image: linear-gradient(to right, #047aed, rgb(99, 99, 99));
+  padding-top: 30px;
+  color: aliceblue;
+}
+
+.grid h1 {
+  font-size: 50px;
+  height: 120px;
+  text-align: center;
+  background-image: linear-gradient(to right, #047aed, rgb(0, 0, 0));
+  padding-top: 30px;
+  color: aliceblue;
+}
+
+.news h1 {
+  font-size: 50px;
+  height: 120px;
+  text-align: center;
+  background-image: linear-gradient(to right, #047aed, rgb(0, 0, 0));
+  padding-top: 30px;
+  color: aliceblue;
+}

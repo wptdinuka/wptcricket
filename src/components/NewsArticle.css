@@ -1,0 +1,27 @@
+.NewsArticle {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 10%;
+  border: 3px solid black;
+  padding: 50px;
+}
+
+.NewsArticle h1 {
+  text-align: left;
+  font-size: 20px;
+  background: transparent;
+  color: #000;
+  border-bottom: #000 solid 10px;
+}
+
+.NewsArticle p {
+  font-size: 15px;
+  text-align: left;
+  justify-content: center;
+  line-height: 28px;
+  margin-top: 20px;
+  font-style: italic;
+}

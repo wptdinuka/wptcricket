@@ -1,0 +1,79 @@
+table {
+  width: auto;
+  height: 60vh;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: 5px;
+  background: transparent;
+}
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+  background: rgba(100, 100, 100, 0.5);
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.T1 {
+  background: url(/src/images/b.jpg);
+  background-size: cover;
+  margin: auto;
+  width: 75%;
+  box-shadow: 40px 40px 40px rgba(0, 89, 255, 0.17);
+}
+
+.T2 {
+  background: url(/src/images/a.jpg);
+  background-size: cover;
+  margin: auto;
+  width: 75%;
+  margin-top: 40px;
+  box-shadow: 40px 40px 40px rgba(0, 89, 255, 0.17);
+}
+
+.T3 {
+  background: url(/src/images/c.jpg);
+  background-size: cover;
+  margin: auto;
+  width: 75%;
+  box-shadow: 40px 40px 40px rgba(0, 89, 255, 0.17);
+}
+
+.T1 h2,
+.T2 h2,
+.T3 h2 {
+  height: 60px;
+  font-size: 30px;
+  background-color: rgb(99, 99, 99);
+  text-align: center;
+  color: aliceblue;
+  padding-top: 10px;
+}
+
+tr:hover {
+  background-color: rgb(99, 99, 99);
+}
+
+@media screen and (max-width: 800px) {
+  table {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  th,
+  td {
+    font-size: 12px;
+  }
+
+  .T1 h2,
+  .T2 h2,
+  .T3 h2 {
+    height: 40px;
+    font-size: 20px;
+  }
+}
